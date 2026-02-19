@@ -35,11 +35,10 @@ nav {
     height: 90px;
 }
 
-.nav-left,
-.nav-right {
+.nav-left {
     display: flex;
-    gap: 100px;
 }
+
 
 .header-txt {
     color: white;
