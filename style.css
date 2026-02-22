@@ -199,3 +199,39 @@ a {
     font-size: 14px;
     font-weight: 300;
 }
+
+/*Responsividade, eu tenteiKKKKKKKKKK*/
+
+/*Celulares*/
+@media (max-width: 992px) {
+    .nav {
+        padding: 0 20px;
+        justify-content: space-between;
+    }
+    
+    .nav-left, .nav-right {
+        gap: 20px; 
+    }
+
+    .introducao h1 {
+        margin-left: 20px;
+        font-size: 1.8em; 
+    }
+
+    .filters, .products {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+/*celulares menores*/
+@media (max-width: 600px) {
+    .filters {
+        flex-direction: column; 
+    }
+
+    .product-item {
+        flex: 1 1 100%; 
+    }
+    g
+}
