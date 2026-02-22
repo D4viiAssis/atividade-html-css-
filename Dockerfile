@@ -1,5 +1,3 @@
-services:
-  catalogo:
-    build: .
-    ports:
-      - "8080:80"
+FROM nginx:alpine
+
+COPY . /usr/share/nginx/html
